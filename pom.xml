@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+     https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.deepinthink.magoko</groupId>
+    <artifactId>magoko-parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <relativePath/>
+  </parent>
+  <artifactId>magoko-tinker-parent</artifactId>
+  <packaging>pom</packaging>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>magoko-tinker-parent</name>
+  <description>MagOKO Tinker :: Parent</description>
+  <url>https://github.com/deepinthink-magoko/magoko-tinker</url>
+  <inceptionYear>2021</inceptionYear>
+  <organization>
+    <name>DEEPINTHINK MagOKO</name>
+    <url>https://github.com/deepinthink-magoko</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tingyanshen</id>
+      <name>Tingyan Shen</name>
+      <email>tingyan.shen@gmail.com</email>
+      <roles>
+        <role>maintainer</role>
+        <role>committer</role>
+      </roles>
+      <timezone>+8</timezone>
+    </developer>
+  </developers>
+  <modules>
+    <module>magoko-tinker-bom</module>
+    <module>magoko-tinker-build-parent</module>
+  </modules>
+</project>
