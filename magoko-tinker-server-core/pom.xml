@@ -11,7 +11,7 @@
     <relativePath>../magoko-tinker-build-parent/pom.xml</relativePath>
   </parent>
   <artifactId>magoko-tinker-server-core</artifactId>
-  <packaging>pom</packaging>
+  <packaging>jar</packaging>
   <name>magoko-tinker-bom</name>
   <description>MagOKO Tinker :: Server Core</description>
   <dependencies>
