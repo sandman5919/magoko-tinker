@@ -16,6 +16,9 @@
   <description>MagOKO Tinker :: Build Parent</description>
   <properties>
     <dep.spring-boot.version>2.3.10.RELEASE</dep.spring-boot.version>
+     <parameter.license-header.location>
+      ${basedir}/../magoko-tinker-build-parent/src/license-header.txt
+    </parameter.license-header.location>
   </properties>
   <dependencyManagement>
     <dependencies>

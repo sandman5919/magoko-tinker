@@ -41,7 +41,9 @@
     </developer>
   </developers>
   <modules>
+    <module>magoko-starter-tinker-server</module>
     <module>magoko-tinker-bom</module>
     <module>magoko-tinker-build-parent</module>
+    <module>magoko-tinker-server-core</module>
   </modules>
 </project>
