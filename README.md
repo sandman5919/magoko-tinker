@@ -1,4 +1,4 @@
-# MagOKO Tinker
+# MagOKO Tinker [![Build](https://github.com/deepinthink-magoko/magoko-tinker/actions/workflows/maven.yml/badge.svg)](https://github.com/deepinthink-magoko/magoko-tinker/actions/workflows/maven.yml)
 DEEPINTHINK MagOKO Tinker server implementation.
 
 ## License
