@@ -1,7 +1,3 @@
-# MagOKO Tinker
-DEEPINTHINK MagOKO Tinker server implementation.
-
-## License
 Copyright 2021-present [DEEPINTHINK](https://github.com/deepinthink).
  All rights reserved.
 
