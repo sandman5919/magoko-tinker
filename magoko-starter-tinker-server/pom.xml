@@ -12,7 +12,7 @@
   </parent>
   <artifactId>magoko-starter-tinker-server</artifactId>
   <packaging>jar</packaging>
-  <name>magoko-tinker-bom</name>
+  <name>magoko-starter-tinker-server</name>
   <description>MagOKO Tinker :: Starter Server</description>
   <dependencies>
     <dependency>

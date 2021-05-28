@@ -10,15 +10,18 @@
     <version>0.0.1-SNAPSHOT</version>
     <relativePath>../magoko-tinker-build-parent/pom.xml</relativePath>
   </parent>
-  <artifactId>magoko-tinker-server-core</artifactId>
+  <artifactId>magoko-tinker-server</artifactId>
   <packaging>jar</packaging>
-  <name>magoko-tinker-server-core</name>
-  <description>MagOKO Tinker :: Server Core</description>
+  <name>magoko-tinker-server</name>
+  <description>MagOKO Tinker :: Server</description>
   <dependencies>
     <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter</artifactId>
-      <optional>true</optional>
+      <groupId>org.deepinthink.magoko</groupId>
+      <artifactId>magoko-starter-boot</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.deepinthink.magoko</groupId>
+      <artifactId>magoko-starter-tinker-server</artifactId>
     </dependency>
   </dependencies>
 </project>
