@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.deepinthink.magoko.tinker.server.core;
+package org.deepinthink.magoko.tinker.server;
 
 import java.lang.annotation.*;
-import org.deepinthink.magoko.tinker.server.core.config.TinkerServerEnableMarkerConfiguration;
+import org.deepinthink.magoko.tinker.server.config.TinkerServerEnableMarkerConfiguration;
 import org.springframework.context.annotation.Import;
 
 @Target(ElementType.TYPE)
