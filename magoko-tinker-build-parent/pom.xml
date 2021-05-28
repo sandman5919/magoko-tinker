@@ -17,6 +17,7 @@
   <properties>
     <dep.spring-boot.version>2.4.6</dep.spring-boot.version>
     <dep.magoko-boot.version>0.0.1-SNAPSHOT</dep.magoko-boot.version>
+    <dep.magoko-config.version>0.0.1-SNAPSHOT</dep.magoko-config.version>
     <parameter.license-header.location>
       ${basedir}/../magoko-tinker-build-parent/src/license-header.txt
     </parameter.license-header.location>
@@ -41,6 +42,13 @@
         <groupId>org.deepinthink.magoko</groupId>
         <artifactId>magoko-boot-bom</artifactId>
         <version>${dep.magoko-boot.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.deepinthink.magoko</groupId>
+        <artifactId>magoko-config-bom</artifactId>
+        <version>${dep.magoko-config.version}</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
